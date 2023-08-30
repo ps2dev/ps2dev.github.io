@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <style>
+        h1 { background-color: #536799; color: white; }
+        h2 { background-color: #536799; color: white; }
+        h3 { background-color: #536799; color: white; }
+        h3:before { content: "■ "; }
+        h4 { background-color: #536799; color: white; }
+        h4:before { content: "▼ "; }
+        body { background-color: white; color: #536799; margin: 0; }
+        hr { border-color: #536799; color: #536799; height: 1px; }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: right; margin: 0;">{{ page.title }}</h2>
+    <br>
+    {{ content }}
+</body>
+</html>
