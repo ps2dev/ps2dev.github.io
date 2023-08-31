@@ -21,6 +21,7 @@ jobs:
         with:
           mdbook-version: 'latest'
       - run: mdbook build
+        working-directory: ./wiki
       - uses: helaili/jekyll-action@2.0.5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
