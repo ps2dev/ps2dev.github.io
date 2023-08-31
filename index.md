@@ -11,7 +11,7 @@ title: PS2 Homebrew Development
 
 ### Wiki
 - Basics
-  - [Creating a PS2 Development environment](wiki/basics/setting_up)
+  - [Creating a PS2 Development environment](wiki/book/basics/setting_up)
 
 ### Links
 * [PS2Dev forums](https://forums.ps2dev.org/)
