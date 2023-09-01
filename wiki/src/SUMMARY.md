@@ -1,4 +1,5 @@
 # Summary
+[Introduction](introduction.md)
 
 # Basics
 - [Setting Up](basics/setting_up.md)
@@ -11,3 +12,6 @@
 
 # 3D Rendering
 - [Rendering a cube]()
+
+--------------
+[Contributors](contributors.md)
