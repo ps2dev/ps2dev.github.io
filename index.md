@@ -12,7 +12,7 @@ This allows you to create applications, games, and more (homebrew) to run on Pla
 
 ### Installing
 
-See here for installation instructions: https://github.com/ps2dev/ps2dev  
+See the [installation instructions for ps2dev](https://github.com/ps2dev/ps2dev).  
 
 ### Updating
 
@@ -37,9 +37,9 @@ CMake support is also available when using the definition `-DCMAKE_TOOLCHAIN_FIL
 
 ### Running
 
-To run homebrew, you need an entrypoint: https://www.psdevwiki.com/ps2/Vulnerabilities  
+To run homebrew, you need an [entrypoint](https://www.psdevwiki.com/ps2/Vulnerabilities).   
 For ease of use, installing FreeMCBoot, FreeHDBoot, or Opentuna is recommended.  
-Use one of the above exploits to launch ps2link: https://github.com/ps2dev/ps2link  
+Use one of the above exploits to launch [ps2link](https://github.com/ps2dev/ps2link)  
 Once ps2link is running, use ps2client to load the executable file (in .elf format) and to receive debugging output.  
 
 ### Debugging
@@ -48,11 +48,11 @@ The current recommended way to debug is to use ps2link and ps2client, as mention
 
 ### Porting libraries
 
-See the ps2sdk-ports repository: https://github.com/ps2dev/ps2sdk-ports  
+See the [ps2sdk-ports repository](https://github.com/ps2dev/ps2sdk-ports).   
 
 ## Community
 
-* Discussions: https://github.com/ps2dev/ps2sdk/discussions  
-* Wiki: https://www.psdevwiki.com/ps2/Main_Page  
-* IRC: https://web.libera.chat/#ps2dev  
-* Matrix: https://matrix.to/#/#ps2dev:matrix.org  
+* [Discussions](https://github.com/ps2dev/ps2sdk/discussions)  
+* [Wiki](https://www.psdevwiki.com/ps2/Main_Page)  
+* [IRC](https://web.libera.chat/#ps2dev)  
+* [Matrix](https://matrix.to/#/#ps2dev:matrix.org)  
