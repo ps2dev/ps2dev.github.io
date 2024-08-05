@@ -1,0 +1,24 @@
+title: ps2dev
+description: Open source development environment for Playstation 2
+google_analytics: 
+show_downloads: false
+theme: jekyll-theme-hacker
+
+links:
+  - name: APIs
+    url: https://ps2dev.github.io/ps2sdk/
+  - name: Discussions
+    url: https://github.com/ps2dev/ps2sdk/discussions
+  - name: IRC
+    url: https://web.libera.chat/#ps2dev
+  - name: Matrix
+    url: https://matrix.to/#/#ps2dev:matrix.org
+  - name: Wiki
+    url: https://www.psdevwiki.com/ps2/Main_Page
+  - name: Forums
+    url: https://forums.ps2dev.org/
+  - name: ps2homebrew
+    url: https://ps2homebrew.github.io/
+
+gems:
+  - jekyll-mentions

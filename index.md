@@ -3,14 +3,56 @@ layout: default
 title: PS2 Homebrew Development
 ---
 
-<div style="text-align: center;">Welcome to the main web page of the website of ps2dev.</div>
+# About ps2dev
 
-### Contents
-* TOC
-{:toc}
+ps2dev is an open source development environment for Playstation 2&reg; development.  
+This allows you to create applications, games, and more (homebrew) to run on Playstation 2 console.  
 
-### Links
-* [ps2sdk Documentation](https://ps2dev.github.io/ps2sdk/)
-* [ps2sdk Github Discussions](https://github.com/ps2dev/ps2sdk/discussions)
-* [ps2dev Forums](https://forums.ps2dev.org/)
-* [ps2dev Github Organization](https://github.com/ps2dev)  
+## Getting Started
+
+### Installing
+
+See here for installation instructions: https://github.com/ps2dev/ps2dev  
+
+### Updating
+
+Repeat the installation instructions above to update the development environment.
+
+### Removing
+
+To remove all traces of the development environment, just delete your `$PS2DEV` directory. You can then reverse the steps in installing the prerequisites.
+
+## Platform
+
+### Writing Code
+
+See the [API reference](https://ps2dev.github.io/ps2sdk/).  
+Once the development environment is installed, samples are available at `$PS2SDK/samples`.  
+Also, see [ps2homebrew](https://ps2homebrew.github.io/) for full programs using the development environment.  
+
+### Building
+
+Building is generally done using GNU Make with `Makefile` files.  
+CMake support is also available when using the definition `-DCMAKE_TOOLCHAIN_FILE=$PS2SDK/ps2dev.cmake`.  
+
+### Running
+
+To run homebrew, you need an entrypoint: https://www.psdevwiki.com/ps2/Vulnerabilities  
+For ease of use, installing FreeMCBoot, FreeHDBoot, or Opentuna is recommended.  
+Use one of the above exploits to launch ps2link: https://github.com/ps2dev/ps2link  
+Once ps2link is running, use ps2client to load the executable file (in .elf format) and to receive debugging output.  
+
+### Debugging
+
+The current recommended way to debug is to use ps2link and ps2client, as mentioned above.  
+
+### Porting libraries
+
+See the ps2sdk-ports repository: https://github.com/ps2dev/ps2sdk-ports  
+
+## Community
+
+* Discussions: https://github.com/ps2dev/ps2sdk/discussions  
+* Wiki: https://www.psdevwiki.com/ps2/Main_Page  
+* IRC: https://web.libera.chat/#ps2dev  
+* Matrix: https://matrix.to/#/#ps2dev:matrix.org  
