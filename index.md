@@ -54,5 +54,11 @@ See the [ps2sdk-ports repository](https://github.com/ps2dev/ps2sdk-ports).
 
 * [Discussions](https://github.com/ps2dev/ps2sdk/discussions)  
 * [Wiki](https://www.psdevwiki.com/ps2/Main_Page)  
+
+### Chat
+
+Channels are bridged, so e.g. users on Matrix can see messages on IRC (and vice versa).
+
 * [IRC](https://web.libera.chat/#ps2dev)  
 * [Matrix](https://matrix.to/#/#ps2dev:matrix.org)  
+* Discord (coming later)  
