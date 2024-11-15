@@ -21,8 +21,8 @@ You can chat using many clients:
 
 Channels are bridged, so e.g. users on Matrix can see messages on IRC (and vice versa).
 
-* [IRC](https://web.libera.chat/#ps2dev)  
 * [Matrix](https://matrix.to/#/#ps2dev:matrix.org)  
+* [IRC](https://web.libera.chat/#ps2dev)  
 * Discord (coming later)  
 
 ## Getting Started
