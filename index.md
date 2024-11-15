@@ -8,6 +8,23 @@ title: PS2 Homebrew Development
 ps2dev is an open source development environment for Playstation 2&reg; development.  
 This allows you to create applications, games, and more (homebrew) to run on Playstation 2 console.  
 
+## Community
+
+Discussion forums, wiki, and chat rooms are available:
+
+* [Discussions](https://github.com/ps2dev/ps2sdk/discussions)  
+* [Wiki](https://www.psdevwiki.com/ps2/Main_Page)  
+
+### Chat
+
+You can chat using many clients:  
+
+Channels are bridged, so e.g. users on Matrix can see messages on IRC (and vice versa).
+
+* [IRC](https://web.libera.chat/#ps2dev)  
+* [Matrix](https://matrix.to/#/#ps2dev:matrix.org)  
+* Discord (coming later)  
+
 ## Getting Started
 
 ### Installing
@@ -49,16 +66,3 @@ The current recommended way to debug is to use ps2link and ps2client, as mention
 ### Porting libraries
 
 See the [ps2sdk-ports repository](https://github.com/ps2dev/ps2sdk-ports).   
-
-## Community
-
-* [Discussions](https://github.com/ps2dev/ps2sdk/discussions)  
-* [Wiki](https://www.psdevwiki.com/ps2/Main_Page)  
-
-### Chat
-
-Channels are bridged, so e.g. users on Matrix can see messages on IRC (and vice versa).
-
-* [IRC](https://web.libera.chat/#ps2dev)  
-* [Matrix](https://matrix.to/#/#ps2dev:matrix.org)  
-* Discord (coming later)  
